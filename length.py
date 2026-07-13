@@ -1,6 +1,5 @@
-import random, string
-chars=string.ascii_letters+string.digits + "@#$!"
-length=12
-password= "".join(random.choice(chars)
-for _ in range(length))
-print("Password: ", password)
+text=input("Enter text : ")
+words=text.split()
+chars=len(text)
+print("Words :", len(words))
+print("Characters :", chars)
